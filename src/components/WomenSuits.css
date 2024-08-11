@@ -1,0 +1,55 @@
+.description {
+  font-size: 0.9em; 
+}
+
+.women-suits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .suit-item {
+    background-color:rgba(red, green, blue, alpha);
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+  }
+  
+  .suit-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .variants button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+  }
+  
+  .variants button:hover {
+    background-color: #0056b3;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .women-suits {
+      justify-content: flex-start; 
+    }
+  
+    .suit-item {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .suit-item {
+      width: calc(100% - 20px);
+    }
+  }

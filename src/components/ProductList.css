@@ -1,0 +1,35 @@
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2rem;
+    color:black;
+    
+  }
+  
+  .product-item {
+    background-color: whitesmoke;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 50;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    
+  }
+  
+  .product-image {
+    width: 70;
+    height: 70;
+    border-radius: 4px;
+  }
+  
+  .product-item h3 {
+    margin-top: 0.5rem;
+  }
+  
+  .product-item p {
+    margin-bottom: 0.5rem;
+  }
+  

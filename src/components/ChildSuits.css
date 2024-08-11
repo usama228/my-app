@@ -1,0 +1,49 @@
+.child-suits {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.suit-item {
+  background-color:rgba(red, green, blue, alpha);
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  width: 200px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow effect */
+}
+
+.suit-image {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.variants {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.variants button {
+  margin: 2px; 
+  padding: 3px 6px; 
+  cursor: pointer;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 3px;
+  font-size: 0.8em; 
+  flex-direction: row;
+}
+
+.variants button:hover {
+  background-color: #0056b3;
+}
+.description {
+  font-size: 0.11em; /* Adjust the size as needed */
+}
